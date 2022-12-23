@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>typescript-assignment</title>
+</head>
+<body>
+  <section class="library-search">
+      <input type="text" id="library-search__input" placeholder="Search for a book" />
+      <button class="library-search__btn">Search</button>
+  </section>
+  <section class="library-books">
+    <ul class="book-list"></ul>
+  </section>
+  <section class="book-info__overlay">
+    <article class="book-info">
+      <section class="book-details__section">
+        <h2 class="book-details__title"></h2>
+        <p class="book-details__author"></p>
+        <p class="book-details__description"></p>
+        <section class="book-stats__section">
+          <p class="book-stats__rating"></p>
+          <p class="book-stats__published-date"></p>
+          <p class="book-stats__page-count"></p>
+          <p class="book-stats__publisher"></p>
+        </section>
+      </section>
+    </article>
+    <button class="book-info-overlay__close-btn">&times;</button>
+  </section>
+  <script type="module" src="./js/index.js"></script>
+</body>
+</html>
